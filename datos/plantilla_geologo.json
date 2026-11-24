@@ -1,0 +1,41 @@
+{
+  "mina": "Ejemplo de dos rumas",
+  "ley_min_cu_pct": 0.15,
+  "ley_objetivo_cu_pct": 0.225,
+  "ley_max_cu_pct": 0.30,
+  "tolerancia_objetivo_pp": 0.002,
+  "payload_tmh": 240,
+  "penalizacion_min_por_t_cu": 1200,
+  "tiempo_limite_s": 30,
+  "rumas": [
+    {
+      "id": "BAJA-01",
+      "nombre": "Ruma de baja ley",
+      "stock_tmh": 19200,
+      "cu_pct": 0.12,
+      "humedad_pct": 4,
+      "incertidumbre_pp": 0.01,
+      "retiro_max_tmh_dia": 16800,
+      "ciclo_min": 26
+    },
+    {
+      "id": "ALTA-01",
+      "nombre": "Ruma de alta ley",
+      "stock_tmh": 16800,
+      "cu_pct": 0.34,
+      "humedad_pct": 8,
+      "incertidumbre_pp": 0.02,
+      "retiro_max_tmh_dia": 14400,
+      "ciclo_min": 30
+    }
+  ],
+  "dias": [
+    {
+      "fecha": "2025-09-01",
+      "planta_tmh": 24000,
+      "tolerancia_tmh": 0,
+      "camiones": 3,
+      "horas_efectivas": 16
+    }
+  ]
+}

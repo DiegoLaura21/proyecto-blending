@@ -1,0 +1,27 @@
+{
+  "mina": "Mina Mirador de Ceniza",
+  "ley_min_cu_pct": 0.15,
+  "ley_objetivo_cu_pct": 0.225,
+  "ley_max_cu_pct": 0.30,
+  "tolerancia_objetivo_pp": 0.005,
+  "payload_tmh": 240,
+  "penalizacion_min_por_t_cu": 1200,
+  "tiempo_limite_s": 30,
+  "rumas": [
+    {"id": "RC-01", "nombre": "Baja norte", "stock_tmh": 108000, "cu_pct": 0.105, "humedad_pct": 3.2, "incertidumbre_pp": 0.012, "retiro_max_tmh_dia": 21600, "ciclo_min": 28},
+    {"id": "RC-02", "nombre": "Baja este", "stock_tmh": 84000, "cu_pct": 0.142, "humedad_pct": 4.8, "incertidumbre_pp": 0.016, "retiro_max_tmh_dia": 16800, "ciclo_min": 32},
+    {"id": "RC-03", "nombre": "Media central", "stock_tmh": 111600, "cu_pct": 0.193, "humedad_pct": 2.7, "incertidumbre_pp": 0.014, "retiro_max_tmh_dia": 20400, "ciclo_min": 30},
+    {"id": "RC-04", "nombre": "Media sur", "stock_tmh": 86400, "cu_pct": 0.254, "humedad_pct": 4.2, "incertidumbre_pp": 0.018, "retiro_max_tmh_dia": 19200, "ciclo_min": 33},
+    {"id": "RC-05", "nombre": "Alta oeste", "stock_tmh": 70800, "cu_pct": 0.381, "humedad_pct": 5.5, "incertidumbre_pp": 0.026, "retiro_max_tmh_dia": 13200, "ciclo_min": 38},
+    {"id": "RC-06", "nombre": "Alta sur", "stock_tmh": 48000, "cu_pct": 0.472, "humedad_pct": 3.6, "incertidumbre_pp": 0.033, "retiro_max_tmh_dia": 9600, "ciclo_min": 40}
+  ],
+  "dias": [
+    {"fecha": "2025-09-01", "planta_tmh": 60000, "tolerancia_tmh": 0, "camiones": 9, "horas_efectivas": 17},
+    {"fecha": "2025-09-02", "planta_tmh": 60000, "tolerancia_tmh": 0, "camiones": 9, "horas_efectivas": 17},
+    {"fecha": "2025-09-03", "planta_tmh": 60000, "tolerancia_tmh": 0, "camiones": 8, "horas_efectivas": 17},
+    {"fecha": "2025-09-04", "planta_tmh": 57600, "tolerancia_tmh": 0, "camiones": 8, "horas_efectivas": 17},
+    {"fecha": "2025-09-05", "planta_tmh": 60000, "tolerancia_tmh": 0, "camiones": 9, "horas_efectivas": 17},
+    {"fecha": "2025-09-06", "planta_tmh": 62400, "tolerancia_tmh": 0, "camiones": 9, "horas_efectivas": 17},
+    {"fecha": "2025-09-07", "planta_tmh": 60000, "tolerancia_tmh": 0, "camiones": 9, "horas_efectivas": 17}
+  ]
+}
