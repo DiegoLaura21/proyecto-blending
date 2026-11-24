@@ -1,0 +1,19 @@
+{
+  "mina": "Mina Mirador de Ceniza",
+  "estado": "optimizado",
+  "brecha_relativa_solver": 0.00034517030070494836,
+  "objetivo_equivalente_min": 55844.40256,
+  "dias": 7,
+  "dias_en_corredor_objetivo_nominal": 6,
+  "alimentacion_total_tmh": 420000.0,
+  "alimentacion_total_tms": 404831.75999999995,
+  "ley_campana_cu_pct": 0.2202115385413437,
+  "cu_contenido_total_t": 891.4862472,
+  "viajes_totales": 1750,
+  "ley_diaria_min_cu_pct": 0.21998497054026164,
+  "ley_diaria_max_cu_pct": 0.22082542840103925,
+  "extremo_inferior_min_cu_pct": 0.20194827069671448,
+  "extremo_superior_max_cu_pct": 0.23907479971808315,
+  "stock_final_total_tmh": 88800.0,
+  "uso_flota_max_pct": 99.97549019607843
+}
